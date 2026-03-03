@@ -63,11 +63,20 @@ ul {
     border: 2px solid;
   
 }
-.material-symbols-outlined{
-    width:24px;
-    height: 24px;
-    font-size: 24px;
-    color:inherit ;
+.CTA .material-symbols-outlined{
+    width:0x;
+    height: 0px;
+    font-size: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.CTA:hover .material-symbols-outlined {
+    width: 24px;
+    height: 24PX;
+    font-size: 24PX;
+    opacity: 1;
+    color: inherit;
 }
 .hamburger {
     background: none;
@@ -83,6 +92,8 @@ ul {
     background-color: white;
     transition: 0.3s;
 }
+#buttons{}
+
 @media (max-width:786px) {
     .hamburger {
         display: block;
