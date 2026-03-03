@@ -81,6 +81,7 @@ ul {
 .hamburger {
     background: none;
     border: none;
+    color: inherit;
     cursor: pointer;
     display: none;
 }
@@ -92,11 +93,16 @@ ul {
     background-color: white;
     transition: 0.3s;
 }
-#buttons{}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+}
 
 @media (max-width:786px) {
     .hamburger {
-        display: block;
+        display: flex;
+        color: white;
     }
 
     #nav_links {
