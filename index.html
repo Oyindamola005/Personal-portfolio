@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,21 +16,23 @@
          <nav class="Header">
             <img src="./src/assets/logo.png" alt="Logo">
             <ul>
-                <li><span>About Me</span></li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li id="nav_links"><a href="#">About Me</a></li>
+                <li id="nav_links"><a href="#">My Resume</a></li>
+                <li id="nav_links"><a href="#">Contact Me</a></li>
             </ul>
-            <button class="CTA">View Projects</button>
+            <div id="buttons">
+            <button class="CTA">View Projects <span class="material-symbols-outlined">arrow_forward</span></button>
             <button class="hamburger">
                 <span id="bar"></span>
                 <span id="bar"></span>
                 <span id="bar"></span>
             </button>
+            </div>
          </nav>
         <div id="hero_text_container">
             <h2>Meet Oyindamola, A UI/UX Designer and enthusiastic Front-End Developer</h2>
             <p>I craft intuitive and visually appealing digital experiences that solve real-world problems. With 3 years of hands-on experience designing for web and mobile, I combine empathy, research, and clean interface design to create products users love</p>
-            <button class="CTA">View Projects</button>
+            <button class="CTA">View Projects <span class="material-symbols-outlined">arrow_forward</span></button>
         </div>
         <div id="stacks_container">
             <div class="stack">
@@ -58,7 +61,7 @@
             <div id="about_me_text">
                 <h3>Hi, Nice to Meet You</h3>
                 <p>I am a passionate UI/UX designer with a focus on creating visually captivating and user-centric digital experiences. With a deep understanding of design principles, I specialize in crafting intuitive interfaces and conducting user research to ensure exceptional usability. My goal is to bridge the gap between aesthetics and functionality, always striving to create designs that leave a lasting impact.Besides design, I love music, games and travelling.</p>
-                <button class="CTA">View Projects</button>
+                <button class="CTA">View Projects <span class="material-symbols-outlined">arrow_forward</span></button>
             </div>
             <img src="./src/assets/abt me image.png" alt="">
         </section>
@@ -88,7 +91,7 @@
                 <p id="hashtags">#UI/UX #Case_study #e-learning #tech #mobile_app</p>
             </div>
         </section>
-        <section id="ui_shots">
+        <section class="ui_shots">
             <h3>UI SHOTS</h3>
             <div id="slides">
                 <img src="./src/assets/slide 1.png" alt="1">
@@ -99,6 +102,25 @@
                 <img src="./src/assets/slide 6.png" alt="6">
                 <img src="./src/assets/slide 7.png" alt="7">
                 <img src="./src/assets/slide 8.png" alt="8">
+            </div>
+        </section>
+        <section class="area_of_competency">
+            <h3>Area of Competency</h3>
+            <div id="compentency">User Research</div>
+            <div id="compentency">Wireframing</div>
+            <div id="compentency">Prototyping</div>
+            <div id="compentency">User Interface Design</div>
+            <div id="compentency">User Testing</div>
+        </section>
+        <section class="Contact_me">
+            <div id="contact_list"><button class="CTA">View Projects</button>
+            <h4>I'm available to talk about concepts and job prospects. </h4>
+            <a href="#">Email ME</a>
+        </div>
+            <div id="socials">
+                <img src="./src/assets/linkedin-icon-2.svg" alt="linkedln">
+                <img src="./src/assets/instagram-2016-5.svg" alt="instagram">
+                <img src="./src/assets/twitter-6.svg" alt="twitter">
             </div>
         </section>
     </div>
