@@ -11,6 +11,7 @@
     margin: 0;
 
 }
+/*hero section*/
 .Header {
     display: flex;
     justify-content: space-between;
@@ -201,6 +202,14 @@ ul {
     width: 32px;
     height: 32px;
 }
+.stack img:hover {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+    transform-style: preserve-3d;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+}
+
 /*about me*/
 .about_me{
     display: flex;
@@ -209,12 +218,20 @@ ul {
     gap: 60px;
     background-color: #1a1a1a;
     margin: 0;
-    padding: 32px 120px;
+    padding: 48px 120px;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
 }
 .about_me img {
     height: 600px;
     width: 450px;
     border-radius: 16px;
+}
+.about_me img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    transform-style: flat;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
 }
 #about_me_text{
     display: flex;
@@ -225,7 +242,7 @@ ul {
 }
 #about_me_text h3{
     font-size: 32px;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     line-height: 1.5;
@@ -237,6 +254,7 @@ ul {
     padding: 0;
     line-height: 1.5;
 }
+/*selected projects*/
 .sec_btn{
     display: flex;
     flex-direction: row;
@@ -283,6 +301,16 @@ ul {
     color:rgb(228, 226, 230) ;
     font-size: 12px;
 }
+.selected_projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 48px 120px;
+    gap: 16px;
+    margin: 0;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
+}
 .selected_projects h3{
     font-size: 32px;
     font-weight: bold;
@@ -291,6 +319,126 @@ ul {
     line-height: 1.5;
 }
 .cards h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.cards p{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.card_container {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border: 2px solid white;
+    border-radius: 16px;
+    flex: 1 1 calc(50% - 12px);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 24px;
+    margin: 0;
+}
+.cards img {
+    width:80% ;
+    border-radius: 16px;
+}
+.cards img:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    transform-style: flat;
+    transition-delay: 0.5s;
+    transition-timing-function: linear;
+}
+/*ui shots*/
+.ui_shots h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5
+}
+.ui_shots{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 48px 120px;
+    gap: 16px;
+    margin: 0;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
+}
+#slides {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px; 
+}
+#slides img {
+    width: 320px;
+    height: 320px;
+    border-radius: 16px;
+}
+/*area_of_competency*/
+.area_of_competency {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 48px 120px;
+    gap: 16px;
+    margin: 0;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
+}
+.area_of_competency h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+#compentency {
+    display: flex;
+    flex: 1;
+    padding: 24px;
+    text-align: start;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 500;
+}
+#compentency:hover {
+    background-color:rgb(43, 3, 80) ;
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+    transform-style: preserve-3d;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+}
+.Contact_me{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 48px 120px;
+    gap: 16px;
+    margin: 0;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
+}
+.Contact_me h4 {
     font-size: 24px;
     font-weight: bold;
     margin: 0;
