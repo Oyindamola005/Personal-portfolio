@@ -339,7 +339,7 @@ ul {
 .cards_img{
     width: 80%;
     flex-grow: inherit;
-    border-radius: 16px;
+    border-radius: 24px;
 }
 .cards_img:hover {
     transform: scale(1.05);
