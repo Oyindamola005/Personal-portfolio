@@ -155,7 +155,9 @@ ul {
 #buttons{
     display: flex;
     flex-direction: row;
-    gap: 0;
+    gap: 16px;
+    justify-items: center;
+    align-content: center;
 }
 
 @media (max-width:786px) {
