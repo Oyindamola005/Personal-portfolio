@@ -30,7 +30,7 @@
     justify-content: center;
     margin: 0;
     
-    background-image: url(/src/assets/hero\ image.png);
+    background-image: url(../assets/hero\ image.png);
     background-size: cover;
     height: 100vh;
     background-position: center;
