@@ -162,6 +162,10 @@ ul {
     .hamburger {
         display: flex;
         flex-direction: column;
+        margin: 0;
+        padding: o;
+        justify-content: center;
+        align-items: center;
         color: white;
         border: 1px solid white;
         border-radius: 4px;
@@ -170,7 +174,9 @@ ul {
     }
     .hamburger span {
         width: 24px;
-        height: 3px;
+        justify-items: center;
+        align-self: center;
+        height: 2px;
         background-color: transparent;
     }
 
