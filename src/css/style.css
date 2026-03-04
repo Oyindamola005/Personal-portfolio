@@ -329,7 +329,7 @@ ul {
     gap: 16px;
     border: 2px solid white;
     border-radius: 16px;
-    flex: 1 1 calc(50% - 12px);
+    flex: 1 1 calc(25% - 12px);
     justify-content: center;
     text-align: center;
     align-items: center;
