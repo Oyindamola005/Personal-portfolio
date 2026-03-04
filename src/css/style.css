@@ -533,11 +533,11 @@ ul {
 }
 #stacks_container{
     display: flex;
-    gap: 16px;
+    gap: 24px;
     flex-direction: column;
-    padding: 16px 32px;
+    padding: 16px 24px;
     margin: 0;
-    width: 100%;
+    width: 250px;
     border: 2px solid white;
     align-items: center;
     
@@ -546,5 +546,35 @@ ul {
     width: 80%;
     max-width: 300px;
     
+}
+.selected_projects{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 24px 32px;
+    gap: 16px;
+}
+.card_container {
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.ui_shots{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 24px 32px;
+    gap: 16px;
+}
+#slides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px; 
 }
 }
