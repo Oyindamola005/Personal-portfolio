@@ -301,14 +301,14 @@ ul {
     padding: 0;
     line-height: 1.5;
 }
-.cards h3{
+.cards_h3{
     font-size: 18px;
     font-weight: bold;
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
-.cards p{
+.cards_p{
     font-size: 16px;
     font-weight: 300;
     margin: 0;
@@ -336,15 +336,16 @@ ul {
     padding: 24px;
     margin: 0;
 }
-.cards img {
-    width:80% ;
+.cards_img{
+    width: 80%;
+    flex-grow: inherit;
     border-radius: 16px;
 }
-.cards img:hover {
+.cards_img:hover {
     transform: scale(1.05);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     transform-style: flat;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
     transition-timing-function: linear;
 }
 /*ui shots*/
