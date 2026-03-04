@@ -577,6 +577,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px; 
+    align-self: center;
 }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -596,4 +597,10 @@ ul {
         color: white;
         z-index: 15;
     }
+    #slides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px; 
+    align-self: center;
+}
 }
