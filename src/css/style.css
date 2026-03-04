@@ -578,3 +578,21 @@ ul {
     gap: 24px; 
 }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+    #buttons .CTA {
+        display: flex;
+    }
+    #nav_links {
+        display: none
+    }
+    .hamburger {
+        display: inline-flex;
+        margin: 0;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        background: none;
+        color: white;
+        z-index: 15;
+    }
+}
