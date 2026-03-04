@@ -160,8 +160,6 @@ ul {
 
 @media (max-width:786px) {
     .hamburger {
-        display: flex;
-        flex-direction: column;
         margin: 0;
         padding: o;
         justify-content: center;
