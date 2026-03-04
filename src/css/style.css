@@ -137,12 +137,18 @@ ul {
     color: inherit;
 }
 .hamburger {
+    flex-direction: column;
     background: none;
     display: none;
     border: none;
     color: inherit;
     cursor: pointer;
-    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 0;
 }
 #bar {
     display: block;
@@ -160,22 +166,25 @@ ul {
 
 @media (max-width:786px) {
     .hamburger {
+        display: flex;
+        flex-direction: column;
         margin: 0;
-        padding: o;
+        padding: 0;
         justify-content: center;
         align-items: center;
         color: white;
         border: 1px solid white;
         border-radius: 4px;
         gap: 8px;
-        z-index: 10;
     }
     .hamburger span {
+        display: block;
         width: 24px;
         justify-items: center;
         align-self: center;
-        height: 2px;
-        background-color: transparent;
+        height: 3px;
+        background-color: white;
+        border-radius: 4px;
     }
 
     #nav_links {
