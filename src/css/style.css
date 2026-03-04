@@ -179,6 +179,9 @@ ul {
     #nav_links.active{
         display: flex;
     }
+    .Header {
+        padding: 24px 32px;
+    }
 }
 #stacks_container{
     display: flex;
