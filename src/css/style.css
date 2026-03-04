@@ -166,6 +166,7 @@ ul {
         border: 1px solid white;
         border-radius: 4px;
         gap: 8px;
+        z-index: 10;
     }
     .hamburger span {
         width: 24px;
