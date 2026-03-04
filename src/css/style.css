@@ -209,6 +209,16 @@ ul {
     width: 100%;
     z-index: 10;
     }
+    .about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 24px 32px;
+    border-bottom: 1px solid rgba(252, 252, 252, 0.192);
+}
 }
 #stacks_container{
     display: flex;
