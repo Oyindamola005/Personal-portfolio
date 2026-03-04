@@ -181,9 +181,6 @@ ul {
         transition: 0.3s;
         padding: 10px;
     }
-    #nav_links.active{
-        display: flex;
-    }
     .Header {
     display: flex;
     justify-content: space-between;
