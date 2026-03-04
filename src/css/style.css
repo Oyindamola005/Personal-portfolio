@@ -329,18 +329,16 @@ ul {
     gap: 16px;
     border: 2px solid white;
     border-radius: 16px;
-    flex: 1 1 calc(50% - 12PX);
-    max-width: calc(50% - 12px);
+    flex: 1 1 calc(50% - 24px);
     justify-content: center;
     text-align: center;
     align-items: stretch;
     padding: 24px;
     margin: 0;
 }
-.cards_img {
-    width: 100%;
+.cards_img img {
     max-width: 100%;
-    height: auto;
+    height: 500px;
     border-radius: 24px;
     display: block;
     object-fit: cover;  
