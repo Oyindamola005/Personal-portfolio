@@ -138,10 +138,10 @@ ul {
 }
 .hamburger {
     background: none;
+    display: none;
     border: none;
     color: inherit;
     cursor: pointer;
-    display: none;
 }
 #bar {
     display: block;
@@ -160,7 +160,16 @@ ul {
 @media (max-width:786px) {
     .hamburger {
         display: flex;
+        flex-direction: column;
         color: white;
+        border: 1px solid white;
+        border-radius: 4px;
+        gap: 8px;
+    }
+    .hamburger span {
+        width: 24px;
+        height: 3px;
+        background-color: transparent;
     }
 
     #nav_links {
