@@ -237,3 +237,63 @@ ul {
     padding: 0;
     line-height: 1.5;
 }
+.sec_btn{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 8px;
+    width: fit-content;
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    border-radius: 8px;
+    border: 3px solid rgb(248, 248, 248);
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.5s ease;
+    margin: 0;
+    cursor: pointer;
+}
+
+.sec_btn:hover {
+    background-color: rgb(43, 3, 80);
+    color:  rgb(248, 248, 248);
+    transition: 0.5s;
+    border-color: rgb(248, 248, 248);
+    border: 2px solid rgb(248, 248, 248);
+
+}
+.sec_btn .material-symbols-outlined{
+    width:0x;
+    height: 0px;
+    font-size: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.sec_btn:hover .material-symbols-outlined {
+    width: 24px;
+    height: 24PX;
+    font-size: 24PX;
+    opacity: 1;
+    color: inherit;
+}
+#hashtags{
+    color:rgb(228, 226, 230) ;
+    font-size: 12px;
+}
+.selected_projects h3{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+.cards h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
