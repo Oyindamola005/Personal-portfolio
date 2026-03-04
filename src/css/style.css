@@ -337,12 +337,13 @@ ul {
     margin: 0;
 }
 .cards_img{
-    width: 80%;
-    flex-grow: inherit;
+    width: max-content;
+    align-self: center;
     border-radius: 24px;
+    overflow: hidden;
 }
 .cards_img:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
     transition-duration: 0.3s;
     transform-style: flat;
     transition-delay: 0.3s;

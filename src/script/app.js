@@ -14,7 +14,7 @@ cardData.forEach(project => {
       <h3>${project.title}</h3></div>
       <div class="cards_p">
       <p>${project.description}</p></div>
-      <button class="sec_btn" onclick="window.open('${project.liveLink}', '_blank')">
+      <button class="sec_btn" onclick="window.open('${project.link}', '_blank')">
         View Projects
         <span class="material-symbols-outlined">arrow_forward</span>
       </button>
