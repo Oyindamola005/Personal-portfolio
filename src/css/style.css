@@ -162,10 +162,10 @@ ul {
     .hamburger {
         display: inline-flex;
         margin: 0;
-        color: white;
     }
 
     #nav_links {
+        display: none;
         position: fixed;
         right: -100%;
         top: 70px;
@@ -177,7 +177,7 @@ ul {
         padding: 10px;
     }
     #nav_links.active{
-        right: 0;
+        display: flex;
     }
 }
 #stacks_container{
