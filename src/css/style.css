@@ -432,6 +432,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     justify-content: center;
     padding: 48px 120px;
     gap: 16px;
@@ -444,4 +445,37 @@ ul {
     margin: 0;
     padding: 0;
     line-height: 1.5;
+    color: #fff;
+}
+.Contact_me a {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.Contact_me a:hover {
+    color:rgb(84, 4, 158) ;
+    cursor: pointer;
+
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+    background-color: #1a1a1a;
+    text-align: center;
+    justify-content: center;
+    padding: 48px 120px;
+    gap: 16px;
+    margin: 0;
+}
+#socials img{
+    width: 32px;
+    height: 32px;
+}
+#socials img:hover {
+    transform: scale(1.3);
+    transition-duration: 0.2s;
+    transform-style: preserve-3d;
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
 }
