@@ -325,7 +325,6 @@ ul {
 }
 .cards {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     gap: 16px;
     border: 2px solid white;
@@ -334,17 +333,17 @@ ul {
     max-width: calc(50% - 12px);
     justify-content: center;
     text-align: center;
-    align-items: center;
+    align-items: stretch;
     padding: 24px;
     margin: 0;
 }
-.cards_img{
+.cards_img {
     width: 100%;
+    max-width: 100%;
     height: auto;
-    align-self: center;
     border-radius: 24px;
     display: block;
-    
+    object-fit: cover;  
 }
 .cards_img:hover {
     transform: scale(1.02);
