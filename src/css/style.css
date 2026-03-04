@@ -219,6 +219,31 @@ ul {
     padding: 24px 32px;
     border-bottom: 1px solid rgba(252, 252, 252, 0.192);
 }
+.about_me img {
+    height: 400px;
+    width: 300px;
+    border-radius: 16px;
+}
+#stacks_container{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px 600px;
+    margin: 0;
+    border: 2px solid white;
+    align-self: center;
+    border-radius: 8px;
+    z-index: 2;
+}
+.stack{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    
+}
 }
 #stacks_container{
     display: flex;
