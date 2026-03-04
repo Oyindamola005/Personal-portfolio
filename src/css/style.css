@@ -518,14 +518,18 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    text-align: center;
     gap: 24px;
+    align-items: center;
 }
 .about_me img {
     height: auto;
     width: 80%;
+    align-self: center;
     border-radius: 16px;
     margin: 0;
+}
+.about_me .CTA {
+    align-self: center;
 }
 #stacks_container{
     display: flex;
